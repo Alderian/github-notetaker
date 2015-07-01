@@ -1,0 +1,32 @@
+{
+  "name": "github-notetaker",
+  "version": "1.0.0",
+  "description": "My own version of 'Build Your First React.js App' from egghead.io",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alderian/github-notetaker.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "author": "alderian@msn.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alderian/github-notetaker/issues"
+  },
+  "homepage": "https://github.com/Alderian/github-notetaker#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.0"
+  }
+}
