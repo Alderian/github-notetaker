@@ -1,9 +1,10 @@
 var React = require('react');
+var NotesList = require('./NoteList.jsx');
 
 var Notes = React.createClass({
 	propTypes: {
 		username: React.PropTypes.string.isRequired,
-		repos: React.PropTypes.array.isRequired
+		notes: React.PropTypes.array.isRequired
 	},
 	render: function(){
 		return (
