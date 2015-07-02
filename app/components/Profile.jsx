@@ -25,7 +25,7 @@ var Profile = React.createClass({
   },
   handleAddNote: function(newNote){
     this.ref.child(this.getParams().username).set(this.state.notes.concat([newNote]))
-  }
+  },
   render: function(){
   	var username = this.getParams().username;
     return (
